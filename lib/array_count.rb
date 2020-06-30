@@ -8,7 +8,8 @@ end
 
 def count_empty_strings(array)
   array.count do | element | 
-    array[element].empty? == true 
+    element.class == String && 
+    element.empty?
   
 end 
 
