@@ -8,7 +8,7 @@ end
 
 def count_empty_strings(array)
   array.count do | element | 
-    array[element][0] == ""
+    array[element] == ""
   
 end 
 
