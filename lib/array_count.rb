@@ -7,7 +7,7 @@ end
  # Return the total number of strings in the provided array using the count enumerable
 
 def count_empty_strings(array)
-  array.count | element | 
+  array.count do | element | 
   element.class == nil 
 end 
 
