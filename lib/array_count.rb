@@ -1,6 +1,6 @@
 def count_strings(array)
-  array.count do | array[] | 
-    array[].class == String?
+  array.count do | index | 
+    array[index].class == String?
   end 
 end
  
